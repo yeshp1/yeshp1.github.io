@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
+  <title>Yeshvanth Prabakar</title>
+</head>
+
+<body id="home" class="scrollspy indigo darken-4">
+  <div id="contact" class="parallax-container">
+    <div class="parallax"><img src="img/contact.png" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+  <script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.slider');
+      var instances = M.Parallax.init(elems, options);
+    });
+
+    const sideNav = document.querySelector('.sidenav');
+    M.Sidenav.init(sideNav, {});
+
+
+    const slider = document.querySelector('.slider');
+    M.Slider.init(slider, {
+      indicators: false,
+      height: 600,
+      transition: 500,
+      interval: 6000
+    });
+
+    const videos = document.querySelectorAll("video")
+    videos.forEach(video => {
+      video.addEventListener("mouseover", function () {
+        this.play()
+        })
+    })
+
+    videos.forEach(video => {
+      video.addEventListener("mouseout", function () {
+        this.pause()
+      })
+    })
+
+
+    const mb = document.querySelectorAll('.materialboxed');
+    M.Materialbox.init(mb, {});
+
+    const ss = document.querySelectorAll('.scrollspy');
+    M.ScrollSpy.init(ss, {});
+
+  </script>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</body>
+
+</html>
