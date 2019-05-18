@@ -7,6 +7,8 @@
 }
 
 
+
+
 .indigo.darken-4 ul li a:hover {
 color: #1f1f7a;
 background-color: white;
@@ -129,6 +131,7 @@ background-color: white;
    .cd-timeline-content .timeline-content-info .timeline-content-info-title, .cd-timeline-content .timeline-content-info .timeline-content-info-date {
      width: calc(50% - 2px);
      display: inline-block;
+     color: white;
    }
    @media (max-width: 500px) {
      .cd-timeline-content .timeline-content-info .timeline-content-info-title, .cd-timeline-content .timeline-content-info .timeline-content-info-date {

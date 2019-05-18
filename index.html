@@ -18,11 +18,18 @@
   <div class="navbar-fixed">
     <nav class=" indigo darken-4">
       <div class="container">
+
+         <div class="row">
+
         <div class="nav-wrapper">
           <a href="#" data-target="mobile-nav" class="sidenav-trigger">
             <i class="material-icons">menu</i>
           </a>
+          <div class="col s12 push-s2">
           <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#home"><i class="fas fa-blog"></i></a>
+            </li>
             <li>
               <a href="#home">Home</a>
             </li>
@@ -40,6 +47,12 @@
             </li>
           </ul>
         </div>
+      </div>
+
+
+    </div>
+
+
       </div>
     </nav>
   </div>
@@ -226,7 +239,9 @@
 
   <!-- Section: WorkExperience -->
   <section id="experience" class="section section-experience scrollspy grey lighten-4">
-    <div class="container">
+
+    <div id="container" class="container grey lighten-4">
+
       <h4 class="center"><span>Work</span> Experience</h4>
 
       <section id="cd-timeline" class="cd-container">
@@ -247,7 +262,10 @@
                 January 2019 - Present
               </span>
             </div>
-            <p>Currently working alongside a team of 6 to develop an improved blood test diary that automates tracking, monitoring and contacting patients who are due for checkups and blood tests. Developed the application using Spring Boot and Materialize CSS frameworks</p>
+            <ul>
+              <li><i class="fas fa-arrow-circle-right"></i>Currently working alongside a team of 6 to develop an improved blood test diary that automates tracking, monitoring and contacting patients who are due for checkups and blood tests.</li>
+              <li><i class="fas fa-arrow-circle-right"></i> Developed the application using Spring Boot and Materialize CSS frameworks.</li>
+             </ul>
             <ul class="content-skills">
             <li>HTML5</li>
             <li>CSS3</li>
@@ -266,16 +284,16 @@
             <h2>HP | Software engineering Intern</h2>
             <div class="timeline-content-info">
               <span class="timeline-content-info-date">
-                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                <i class="fas fa-arrow-circle-right-o" aria-hidden="true"></i>
                 May 2017 - August 2017
               </span>
             </div>
-            <p>
-              •Developed a new system that provided a more efficient and integrated solution to manage customer records, imrpoving effiency by up to 60%<br>
-              •Played an active role in requiremetns engineering<br>
-              •Helped engineers in debugging Software<br>
-              •Worked on IP addressing and subnetting of networks in the intranet to correctly meet the number of systems required by the enterprise.
-            </p>
+            <ul>
+              <li><i class="fas fa-arrow-circle-right"></i>Developed a new system that provided a more efficient and integrated solution to manage customer records, imrpoving effiency by up to 60%.</li>
+              <li><i class="fas fa-arrow-circle-right"></i>Played an active role in requiremetns engineering.</li>
+              <li><i class="fas fa-arrow-circle-right"></i>Helped engineers in debugging Software.</li>
+              <li><i class="fas fa-arrow-circle-right"></i>Worked on IP addressing and subnetting of networks in the intranet to correctly meet the number of systems required by the enterprise.</li>
+            </ul>
             <ul class="content-skills">
             <li>JAVA</li>
             <li>MySQL</li>
@@ -299,9 +317,10 @@
                 October 2018 - May 2019
               </span>
             </div>
-            <p>•Worked as a researcher for the artificial intelligence society at kings by staying abreast on the latest technologies in Machine Learning and AI Plannigng<br>
-                •Planned, organised speakers and events through the form of workshops for members and students to a total audience of 400 students with weekly workshops
-              </p>
+            <ul>
+            <li><i class="fas fa-arrow-circle-right"></i>Worked as a researcher for the artificial intelligence society at kings by staying abreast on the latest technologies in Machine Learning and AI Plannigng</li>
+            <li><i class="fas fa-arrow-circle-right"></i>Planned, organised speakers and events through the form of workshops for members and students to a total audience of 400 students with weekly workshops</li>
+            </ul>
           </div>
         </div>
 
@@ -316,23 +335,23 @@
                 October 2014 - May 2015
               </span>
             </div>
-            <p>
-              •Planned, managed and hostd a variety of fundraisers to raise a total of 4000 euroes.<br>
-              •Hosted the band Night fundraiser at the local famous "Gooscie Podium" in Hilversum and broadcasted the event on the local newspaper.<br>
-              •Liased through a variety of contacts to auction items for fundraiers including artowrks and paintings for sales of over €1000.
-            </p>
+            <ul>
+              <li><i class="fas fa-arrow-circle-right"></i>Planned, managed and hostd a variety of fundraisers to raise a total of 4000 euroes.</li>
+              <li><i class="fas fa-arrow-circle-right"></i>Hosted the band Night fundraiser at the local famous "Gooscie Podium" in Hilversum and broadcasted the event on the local newspaper.</li>
+              <li><i class="fas fa-arrow-circle-right"></i>Liased through a variety of contacts to auction items for fundraiers including artworks and paintings for sales of over €1000.</li>
+            </ul>
           </div>
         </div>
 
       </section>
 
-      <div class="row">
+</div>
 
   </section>
 
   <!-- Footer -->
-  <footer class="class="section section-experience scrollspy"">
-    <section class="section section-follow  indigo lighten-3 darken-2 white-text center">
+
+    <section id="contact" class="section section-follow  indigo lighten-3 darken-2 white-text center scrollspy">
       <div class="container">
         <div class="row">
           <div class="col s12">
@@ -358,7 +377,7 @@
         </div>
       </div>
     </section>
-  </footer>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
