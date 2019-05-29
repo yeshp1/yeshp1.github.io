@@ -168,7 +168,7 @@ background-color: white;
      color: rgba(255, 255, 255, 0.9);
      margin-top: 0;
      margin-bottom: 5px;
-     color: white;
+     color: brown;
    }
 
    .cd-timeline-content p, .cd-timeline-content .cd-date {
@@ -221,7 +221,6 @@ background-color: white;
 
    @media only screen and (min-width: 1170px) {
      .cd-timeline-content {
-       color: white;
        margin-left: 0;
        padding: 1.6em;
        width: 60%;
