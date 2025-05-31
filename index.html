@@ -384,12 +384,17 @@
 
   <!-- Footer -->
 
+  <script>
+    const currentDate = newDate().getFullYear();
+    document.getEelementById("year").textContent = currentDate
+  </script>
+
     <section id="contact" class="section section-follow  indigo lighten-3 darken-2 white-text center scrollspy">
       <div class="container">
         <div class="row">
           <div class="col s12">
               <div class="row">
-            <h4>Contact 2018</h4>
+            <h4>Contact <span id="year"></span></h4>
             <a href="https://www.facebook.com/yeshvanth.prabakar" class="white-text">
               <i class="fab fa-facebook fa-4x"></i>
             </a>
