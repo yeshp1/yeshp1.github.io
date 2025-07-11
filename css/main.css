@@ -266,3 +266,19 @@ background-color: white;
      }
 
    }
+
+.timeline-content-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.timeline-content-info-title {
+  text-align: left;
+}
+
+.timeline-content-info-date {
+  text-align: right;
+  min-width: 180px;
+}
